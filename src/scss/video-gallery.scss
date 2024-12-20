@@ -1,0 +1,19 @@
+// video {
+//   // max-width: 100%;
+//   height: 392px;
+//   border-radius: 12px;
+// }
+.video-container {
+  padding-top: 16px;
+  // position: relative;
+  // width: 600px;
+  // height: 340px;
+  // background-color: rgba(0, 0, 0, 0.8); /* Напівпрозорий фон */
+  // transition: background-color 0.3s ease; /* Плавний перехід фону */
+}
+video {
+  width: 290px;
+  height: 392px;
+  object-fit: cover;
+  border-radius: 12px;
+}

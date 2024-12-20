@@ -4,26 +4,86 @@
   text-align: center;
   color: black;
   text-shadow: 2px 2px 3px 0 rgba(54, 2, 98, 0.27);
+  margin-bottom: 32px;
+}
+.bth-back-home {
+  border: 1px solid #43007a;
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  background-color: #fff;
+  box-shadow: 2px 2px 3px 0 rgba(54, 2, 98, 0.27);
+  margin-bottom: 24px;
+  padding: 14px;
 }
 
+.purple-wave {
+  background-image: url(../img/privacy-terms/purple-mob.png);
+  background-size: 320px 170px;
+  background-repeat: no-repeat;
+  padding-top: 32px;
+}
 .privacy-text {
   color: #141414;
 }
 
 .privacy-text p {
   text-indent: 20px;
+  margin-bottom: 16px;
 }
 
 .privacy-text h2 {
   font-weight: 500;
   font-size: 18px;
+  margin-bottom: 16px;
 }
 .privacy-text ul {
   margin-left: 20px;
-
+  margin-bottom: 16px;
   list-style: disc;
 }
 .privacy-text a {
   color: #485fc7;
   text-decoration: underline;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 1200px) {
+  .privacy-title {
+    font-size: 52px;
+  }
+  .bth-back-home {
+    width: 175px;
+    margin-bottom: 8px;
+    padding: 14px;
+  }
+  .purple-wave {
+    background-image: url(../img/privacy-terms/purple-desktop.png);
+    background-size: 1200px 197px;
+    background-repeat: no-repeat;
+    padding-top: 32px;
+  }
+  .privacy-text {
+    font-size: 16px;
+  }
+  .privacy-text p {
+    margin-bottom: 24px;
+  }
+
+  .privacy-text h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .privacy-text ul {
+    margin-left: 25px;
+    margin-bottom: 24px;
+    list-style: disc;
+  }
+  .privacy-text a {
+    color: #485fc7;
+    text-decoration: underline;
+    margin-bottom: 24px;
+  }
+  .privacy-text .text-for-list {
+    margin-bottom: 0;
+  }
 }

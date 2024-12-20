@@ -1,9 +1,9 @@
-.container {
-  background-color: blue;
+.blue-wave {
+  background-image: url(../img/footer/blue_wave_mob.png);
 }
 
 .footer-content {
-  padding-top: 32px;
+  padding-top: 76px;
   padding-bottom: 32px;
   display: flex;
   flex-direction: column;
@@ -34,18 +34,17 @@
   height: 62px;
   box-shadow: 3px 3px 5px 0 rgba(54, 2, 98, 0.27);
   background: #fff;
-  display: flex;
 }
-.get-it-on {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #43007a;
-}
-.text-play {
-  color: black;
-}
+// .get-it-on {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 13px;
+//   letter-spacing: -0.03em;
+//   text-transform: uppercase;
+//   color: #43007a;
+// }
+// .text-play {
+//   color: black;
+// }
 @media screen and (min-width: 1200px) {
   .footer-text {
     flex-direction: row-reverse;

@@ -20,6 +20,10 @@ body {
   background-color: #ffffff;
 }
 
+.content {
+  padding-top: 60px;
+}
+
 .container {
   max-width: 320px;
   padding: 0 16px;
@@ -45,6 +49,10 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+  .content {
+    padding-top: 76px;
+  }
+
   // .section {
   //   padding-top: 82px;
   //   padding-bottom: 82px;

@@ -16,7 +16,9 @@
   margin-bottom: 24px;
   padding: 14px;
 }
-
+.btn-text {
+  display: none;
+}
 .purple-wave {
   background-image: url(../img/privacy-terms/purple-mob.png);
   background-size: 320px 170px;
@@ -56,6 +58,11 @@
     margin-bottom: 8px;
     padding: 14px;
   }
+  .btn-text {
+    display: inline;
+    font-size: 16px;
+    color: #141414;
+  }
   .purple-wave {
     background-image: url(../img/privacy-terms/purple-desktop.png);
     background-size: 1200px 197px;
@@ -85,5 +92,9 @@
   }
   .privacy-text .text-for-list {
     margin-bottom: 0;
+  }
+  .btn-content {
+    display: flex;
+    justify-content: space-evenly;
   }
 }

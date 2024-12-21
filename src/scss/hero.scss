@@ -1,0 +1,148 @@
+.hero {
+  padding-top: 78px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  width: 320px;
+  height: 557px;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(15, 15, 15, 0.85),
+      rgba(15, 15, 15, 0.85)
+    ),
+    url(../img/hero/hero_bg_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .hero-bg {
+    background-image: linear-gradient(
+        rgba(15, 15, 15, 0.85),
+        rgba(15, 15, 15, 0.85)
+      ),
+      url(../img/hero/hero_bg_mob@2x.jpg);
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+// .hero-title-img {
+//   width: 289px;
+//   height: 117px;
+// }
+
+.hero-text {
+  text-align: center;
+  text-shadow: 0px 1px 0px #9b4f26;
+  font-size: 18px;
+  font-weight: 500;
+  align-self: stretch;
+}
+
+.hero-picture {
+  display: none;
+}
+
+.hero-google-play {
+  display: flex;
+  width: 289px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1.5px solid #43007a;
+  background: #ffffff;
+  box-shadow: 3px 3px 4.95px 0px rgba(54, 2, 98, 0.27);
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 122px;
+    padding-bottom: 72px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 137px;
+  }
+
+  .hero-bg {
+    width: 1200px;
+    height: 867px;
+    background-image: linear-gradient(
+        rgba(15, 15, 15, 0.85),
+        rgba(15, 15, 15, 0.85)
+      ),
+      url(../img/hero/hero_bg_desktop.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero-bg {
+      background-image: linear-gradient(
+          rgba(15, 15, 15, 0.85),
+          rgba(15, 15, 15, 0.85)
+        ),
+        url(../img/hero/hero_bg_desktop@2x.jpg);
+    }
+  }
+
+  .text-wrapper {
+    display: flex;
+    width: 488px;
+    height: 456px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 0;
+  }
+
+  // .hero-title-img {
+  //   width: 488px;
+  //   height: 234px;
+  // }
+
+  .hero-text {
+    font-size: 32px;
+  }
+
+  .img-wrapper {
+    display: flex;
+    width: 403px;
+    height: 456px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .hero-picture {
+    display: block;
+    width: 403px;
+    height: 260px;
+    border-radius: 12px;
+    // box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+  }
+}

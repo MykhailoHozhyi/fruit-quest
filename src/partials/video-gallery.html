@@ -2,20 +2,22 @@
   <div class="container video-block">
     <h2 class="visually-hidden">Section Video</h2>
     <div class="video-container">
-      <video id="myVideo" controls>
+      <video class="myVideo" controls>
         <source
           src="https://play-games.googleusercontent.com/vp/mp4/1280x720/i6tWoKWdSt4.mp4"
           type="video/mp4"
         />
       </video>
+      <div class="play-icon">
+        <svg width="24" height="24">
+          <use href="../img/sprite.svg#icon-play"></use>
+        </svg>
+      </div>
+      <div class="pause-icon">
+        <svg width="24" height="24">
+          <use href="../img/sprite.svg#icon-pause"></use>
+        </svg>
+      </div>
     </div>
   </div>
 </section>
-
-<!-- poster: задає зображення для попереднього перегляду, яке буде показуватися до того, як відео почне відтворюватися.
-
-html
-Копіювати код
-<video width="600" poster="thumbnail.jpg">
-  <source src="video.mp4" type="video/mp4">
-</video> -->

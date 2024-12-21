@@ -3,12 +3,13 @@ import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+
 export const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
-  autoHeight: false,
-  autoWidth: false,
-  watchOverflow: false,
+  centeredSlides: true,
+  slideToClickedSlide: true,
+  watchOverflow: true,
 
   keyboard: {
     enabled: true,
@@ -21,8 +22,7 @@ export const swiper = new Swiper('.swiper', {
       spaceBetween: 16,
     },
     1200: {
-      slidesPerView: 2,
-      spaceBetween: 16,
+      slidesPerView: 2.9,
     },
   },
   modules: [Pagination],

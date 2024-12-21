@@ -1,15 +1,15 @@
-// const video = document.getElementById('myVideo');
-// const videoContainer = document.getElementById('videoContainer');
+const video = document.querySelector('.myVideo');
+const videoContainer = document.querySelector('.video-container');
 
-// // Додаємо обробники подій для відео
-// video.addEventListener('play', () => {
-//   videoContainer.style.backgroundColor = 'rgba(0, 0, 0, 0)'; // Непрозорий фон
-// });
+const overlay = document.createElement('div');
+overlay.classList.add('overlay');
 
-// video.addEventListener('pause', () => {
-//   videoContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // Напівпрозорий фон
-// });
+videoContainer.appendChild(overlay);
 
-// video.addEventListener('ended', () => {
-//   videoContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // Напівпрозорий фон після завершення
-// });
+video.addEventListener('play', () => {
+  overlay.style.display = 'none';
+});
+
+video.addEventListener('pause', () => {
+  overlay.style.display = 'block';
+});

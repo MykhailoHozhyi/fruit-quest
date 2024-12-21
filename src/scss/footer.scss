@@ -1,7 +1,12 @@
 .blue-wave {
   background-image: url(../img/footer/blue_wave_mob.png);
+  background-size: 320px 288px;
 }
-
+@media (min-resolution: 192dpi) {
+  .blue-wave {
+    background-image: url(../img/footer/blue_wave_mob@2x.png);
+  }
+}
 .footer-content {
   padding-top: 76px;
   padding-bottom: 32px;
@@ -9,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  position: relative;
 }
 .privacy-term {
   display: flex;
@@ -35,6 +41,17 @@
   box-shadow: 3px 3px 5px 0 rgba(54, 2, 98, 0.27);
   background: #fff;
 }
+.google-play:hover {
+  border: 1.5px solid #cc9df2;
+  background: #f9e3fd;
+  box-shadow: none;
+}
+.footer-girl {
+  position: absolute;
+  right: -18px;
+  top: -110px;
+  z-index: -1;
+}
 
 @media screen and (min-width: 1200px) {
   .blue-wave {
@@ -58,5 +75,15 @@
     gap: 27px;
     padding-top: 44px;
     padding-bottom: 32px;
+  }
+  .footer-girl {
+    right: -18px;
+    top: -75px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .blue-wave {
+    background-image: url(../img/footer/blue_wave@2x.png);
   }
 }

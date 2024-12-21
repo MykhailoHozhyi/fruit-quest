@@ -1,0 +1,101 @@
+.terms-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 3px 0 rgba(54, 2, 98, 0.27);
+  margin-bottom: 32px;
+}
+.bth-back-home {
+  border: 1px solid #43007a;
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  background-color: #fff;
+  box-shadow: 2px 2px 3px 0 rgba(54, 2, 98, 0.27);
+  margin-bottom: 24px;
+  padding: 14px;
+}
+.bth-back-home:hover {
+  border: 1px solid #cc9df2;
+  background: #f1e3fd;
+  box-shadow: none;
+}
+.btn-text {
+  display: none;
+}
+.yellow-wave {
+  background-image: url(../img/privacy-terms/yellow-mob.png);
+  background-size: 320px 170px;
+  background-repeat: no-repeat;
+  padding-top: 32px;
+}
+@media (min-resolution: 192dpi) {
+  .yellow-wave {
+    background-image: url(../img/privacy-terms/yellow-mob@2x.png);
+  }
+}
+.terms-text {
+  color: #141414;
+}
+
+.terms-text p {
+  text-indent: 20px;
+  margin-bottom: 16px;
+}
+
+.terms-text h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.terms-text ul {
+  margin-left: 20px;
+  margin-bottom: 16px;
+  list-style: disc;
+}
+.terms-text a {
+  color: #485fc7;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+.terms-text .terms-text-part2 {
+  margin-top: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .terms-title {
+    font-size: 52px;
+  }
+  .bth-back-home {
+    width: 175px;
+    margin-bottom: 8px;
+  }
+  .btn-text {
+    display: inline;
+    font-size: 16px;
+    color: #141414;
+  }
+  .yellow-wave {
+    background-image: url(../img/privacy-terms/yellow-desktop.png);
+    background-size: 1200px 197px;
+  }
+  .terms-text {
+    font-size: 16px;
+  }
+
+  .terms-text h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .btn-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .purple-wave {
+    background-image: url(../img/privacy-terms/yellow-desktop@2x.png);
+  }
+}

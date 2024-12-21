@@ -24,16 +24,16 @@ body {
   padding-top: 60px;
 }
 
+.section {
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
 .container {
   max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
-
-// .section {
-//   padding-top: 32px;
-//   padding-bottom: 32px;
-// }
 
 .visually-hidden {
   position: absolute;
@@ -53,10 +53,10 @@ body {
     padding-top: 76px;
   }
 
-  // .section {
-  //   padding-top: 82px;
-  //   padding-bottom: 82px;
-  // }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
   .container {
     max-width: 1200px;

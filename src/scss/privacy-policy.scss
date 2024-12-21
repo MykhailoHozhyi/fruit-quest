@@ -16,6 +16,16 @@
   margin-bottom: 24px;
   padding: 14px;
 }
+.bth-back-home:hover {
+  border: 1px solid #cc9df2;
+  background: #f1e3fd;
+  box-shadow: none;
+}
+
+.bth-back-home:hover {
+  border: 1px solid #cc9df2;
+  background: #f1e3fd;
+}
 .btn-text {
   display: none;
 }
@@ -24,6 +34,11 @@
   background-size: 320px 170px;
   background-repeat: no-repeat;
   padding-top: 32px;
+}
+@media (min-resolution: 192dpi) {
+.purple-wave {
+  background-image: url(../img/privacy-terms/purple-mob@2x.png);
+}
 }
 .privacy-text {
   color: #141414;
@@ -49,6 +64,9 @@
   text-decoration: underline;
   margin-bottom: 16px;
 }
+.privacy-text .text-for-list {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 1200px) {
   .privacy-title {
     font-size: 52px;
@@ -66,8 +84,6 @@
   .purple-wave {
     background-image: url(../img/privacy-terms/purple-desktop.png);
     background-size: 1200px 197px;
-    background-repeat: no-repeat;
-    padding-top: 32px;
   }
   .privacy-text {
     font-size: 16px;
@@ -83,18 +99,19 @@
   .privacy-text ul {
     margin-left: 25px;
     margin-bottom: 24px;
-    list-style: disc;
   }
   .privacy-text a {
-    color: #485fc7;
-    text-decoration: underline;
     margin-bottom: 24px;
   }
-  .privacy-text .text-for-list {
-    margin-bottom: 0;
-  }
+
   .btn-content {
     display: flex;
     justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+.purple-wave {
+    background-image: url(../img/privacy-terms/purple-desktop@2x.png);
+
   }
 }

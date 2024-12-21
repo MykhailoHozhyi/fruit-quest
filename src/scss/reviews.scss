@@ -1,0 +1,81 @@
+.review-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 24px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  stroke: 43007A;
+}
+.review-purple-wave {
+  background-image: url(../img/reviews/purple_wave_mob.png);
+  background-size: 320px 109px;
+  background-repeat: no-repeat;
+}
+
+.review-bg {
+  margin-top: 35px;
+  background-image: url(../img/reviews/reviews_mob.png);
+  background-size: 288px 184px;
+}
+@media (min-resolution: 192dpi) {
+  .review-purple-wave {
+    background-image: url(../img/reviews/purple_wave_mob@2x.png);
+  }
+  .review-bg {
+    background-image: url(../img/reviews/reviews_mob@2x.png);
+  }
+}
+.review-name-card {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 24px;
+  background: linear-gradient(180deg, #903f19 0%, #2a1207 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding-top: 9px;
+}
+.review-text-card {
+  font-weight: 500;
+  padding: 38px 20px 40px 30px;
+}
+@media screen and (min-width: 1200px) {
+  .review-title {
+    font-size: 52px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px 3px 0 rgba(54, 2, 98, 0.27);
+  }
+  .review-purple-wave {
+    background-image: url(../img/reviews/purple_wave.png);
+    background-size: 1200px 153px;
+    background-repeat: no-repeat;
+  }
+
+  .review-bg {
+    margin-top: 64px;
+    background-image: url(../img/reviews/reviews_desktop.png);
+    background-size: 401px 184px;
+    background-repeat: no-repeat;
+  }
+
+  .review-name-card {
+    font-size: 36px;
+    padding-top: 12px;
+  }
+  .review-text-card {
+    font-size: 16px;
+    padding: 38px 20px 40px 30px;
+  }
+  .reviews-card {
+    display: flex;
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .review-purple-wave {
+    background-image: url(../img/reviews/purple_wave@2x.png);
+  }
+  .review-bg {
+    background-image: url(../img/reviews/reviews_desktop@2x.png);
+  }
+}

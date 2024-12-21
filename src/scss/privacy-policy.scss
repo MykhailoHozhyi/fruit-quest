@@ -36,12 +36,14 @@
   padding-top: 32px;
 }
 @media (min-resolution: 192dpi) {
-.purple-wave {
-  background-image: url(../img/privacy-terms/purple-mob@2x.png);
-}
+  .purple-wave {
+    background-image: url(../img/privacy-terms/purple-mob@2x.png);
+  }
 }
 .privacy-text {
   color: #141414;
+
+  margin-bottom: 112px;
 }
 
 .privacy-text p {
@@ -87,6 +89,7 @@
   }
   .privacy-text {
     font-size: 16px;
+    margin-bottom: 75px;
   }
   .privacy-text p {
     margin-bottom: 24px;
@@ -110,8 +113,7 @@
   }
 }
 @media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
-.purple-wave {
+  .purple-wave {
     background-image: url(../img/privacy-terms/purple-desktop@2x.png);
-
   }
 }
